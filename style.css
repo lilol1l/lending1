@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;}
+header{
+    width: 100%;
+    background-color: #f6f2f2;
+    padding-bottom: 2%;
+}
+.hd_gl{
+    width: 80%;
+    margin: 0% 10% 4% 10%;
+    background-color: #313030;
+    display: flex;
+    justify-content: center;
+}
+.block_hd{
+    width: 10%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+.block_hd:hover{
+    background-color: #ff3f40;
+}
+.text_hd{
+    width: 100%;
+    display: flex;
+}
+.text_block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.text_block>b{
+    padding-top: 5%;
+    font-size: 23pt;
+    width: 35%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+}
+.text_block>p{
+    font-size: 19pt;
+    padding-left: 10%;
+    width: 70%;
+}
+.button{
+    padding: 2%;
+    border-radius: 6pt;
+    font-size: 15pt;
+    background-color: #ff3f40;
+    width: 16%;
+    margin-left: 10%;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    
+}
+.img1{
+    margin-top: 5%;
+    margin: 9%;
+    background-color:dimgray ;
+    padding: 10%;
+    text-align: center;
+}
+.img1>ion-icon{
+    font-size: 25pt;
+    color: white;
+}
+.first{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+}
+.sec1{
+    width: 40%;
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px #f2f2f2 solid;
+}
+.sec1_text{
+    width: 70%;
+    padding-top: 4%;
+}
+.sec1_text>b{
+    font-size: 23pt;
+}
+.sec1_text>p{
+    font-size: 16pt;
+    padding-top: 2%;
+}
+.sec1_button>button{
+    padding: 2% 2% 2% 2%;
+    border-radius: 6pt;
+    font-size: 15pt;
+    border: #ff3f40 2px solid;
+    width: 18%;
+    margin-left: 0 %;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+}
+.cont{
+    display: flex;
+    padding: 2%;
+}
+.sec1_block{
+    display: flex;
+    flex-direction: column;  
+}
+.sec1_block>ion-icon{
+    font-size: 25pt;
+    color: #ff3f40;
+    padding: 2%;
+}
+.sec1_block>b{
+    font-size: 18pt;
+}
+.sec1_block>p{
+    font-size: 15pt;
+    padding-top: 2%;
+}
+.second{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec2_hd{
+    
+    padding: 3% 0% 3% 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 2% 35% 2% 35%;
+}
+.sec2_hd>b{
+    font-size: 23pt;
+    text-align: center;
+    padding: 2%;
+    
+}
+.se2_hd>p{
+   padding: 3% 0% 3% 5%;
+    font-size: 17pt;
+}
+.border{
+   background-color: #ff3f40;
+   height: 3px; 
+   margin: 4% 20% 4% 20%;
+}
+.sec2_gl{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec2_nav{
+    padding: 2% 20% 5% 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.sec2_nav>a{
+    text-decoration: none;
+}
+.sec2_nav>a>p{
+    font-weight: bold;
+}
+.sec2_nav>a:hover{
+    font-weight: bold;
+    color:#ff3f40 ;
+    text-decoration: underline #ff3f40 2px;
+    transition: all 1s ease;
+}
+.sec2_nav>a>p:hover{
+    font-weight: bold;
+    color:#ff3f40 ;
+    text-decoration: underline #ff3f40 2px;
+    transition: all 1s ease;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 0% 2% 9%;
+}
+.img2{
+    padding: 1%; 
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    padding-left: 9%;
+}
+.left>p{
+    font-size: 14pt;
+}
+.left>b{
+    font-size: 23pt;
+    padding: 2%;
+}
+.border2{
+    background-color: #ff3f40;
+    height: 3px;
+    margin-top: 2%;
+    margin-right: 50%;
+    margin-bottom: 2%;
+}
+.block_sec{
+    padding: 4% 0% 4% 9% ;
+    display: flex;
+}
+.block_sec1{
+    width: 30%;
+}
+.block_sec1_1{
+    width:61%;
+    display:flex;
+    flex-direction: column;
+}
+.sec1_1_gal>img{
+    width: 23%;
+    padding-top: 2%;
+}
+.block_sec1_1>b{
+    font-size: 23pt;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+.block_sec1_1>p{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 16pt;
+}
+.i{
+    display: flex;
+    padding-bottom: 11%;
+}
+.i>i{
+    padding-right: 5%;
+    font-size: 17pt;
+}
+.third{
+    background-color: #f5f0dd;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+}
+.third>b{
+    color: #2e2e2e;
+    font-size: 25pt;
+   text-align: center;
+}
+.third>p{
+    padding-top: 2%;
+    font-size: 11pt;
+    color: #2e2e2e;
+    padding-left: 13%;
+}
+.forth{
+    padding-top: 3%;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3% 0% 3% 0%;
+}
+form{
+    padding-right: 4%;
+    
+}
+input{
+border: #ff3f40 1px solid;
+padding: 5%;
+border-radius: 2pt;
+}
+button{
+    background-color: #ff3f40;
+    padding: 0.5%;
+    border-radius: 5pt;
+    border: none;
+    width: 9%;
+}
+.end{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.form_end{
+    width: 40%;
+    text-align: center;
+    padding-left: 6.5%;
+}
+.end_form>input{
+    margin: 2%;
+    width: 30%;
+    border: 0px;
+    background-color: #c3c0c0;
+}
+.end_form>textarea{
+    background-color: #c3c0c0 ;
+    width: 79%;
+    resize:none ;
+    border: 0px;
+    padding: 3%;
+}
+.form_end>button{
+    width: 82%;
+    padding: 4%;
+    padding-left: 0%;
+    text-align: center;
+    margin-right: 4% ;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.form_end>button:hover{
+    width: 82%;
+    padding: 4%;
+    padding-left: 0%;
+    text-align: center;
+    margin-right: 4% ;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    background-color: #e30000;
+    transition: 1s all ease;
+    font-weight: bold;
+}
+.text_end{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    background-color: #2d2d2d;
+    margin-left: 20%;
+    
+}
+.text_end>b{
+    color: white;
+}
+.text_end>P{
+    color: white;
+    padding-top: 9%;
+}
+footer{
+    margin-top: 5%; 
+    background-color: #2d2d2d;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    color: white;
+}
+.icon>ion-icon{
+    color: white;
+    font-size: 25pt;
+    gap: 5%;
+}
